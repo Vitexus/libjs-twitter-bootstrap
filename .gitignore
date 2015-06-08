@@ -4,3 +4,5 @@ debian/build
 bootstrap/
 debian/libjs-twitter-bootstrap-docs/
 debian/libjs-twitter-bootstrap/
+/debian/libjs-twitter-bootstrap-docs.debhelper.log
+/debian/libjs-twitter-bootstrap.debhelper.log

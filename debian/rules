@@ -23,8 +23,8 @@ override_dh_auto_build:
 #	cp ~/Projects/3RDParty/bootstrap/docs/assets/css/bootstrap-responsive.css $(BUILD_DIR)/bootstrap-responsive.css
 #	cp ~/Projects/3RDParty/bootstrap/docs/assets/css/bootstrap.css $(BUILD_DIR)/bootstrap.css
 
-	echo "$(PKG_PATH)/files/js/bootstrap.js $(PKG_PATH)/files/bootstrap.js" > $(DH_LINKS_FILE)
-	echo "$(PKG_PATH)/files/js/bootstrap.min.js $(PKG_PATH)/files/bootstrap.min.js" >> $(DH_LINKS_FILE)
+#	echo "$(PKG_PATH)/files/js/bootstrap.js $(PKG_PATH)/files/bootstrap.js" > $(DH_LINKS_FILE)
+#	echo "$(PKG_PATH)/files/js/bootstrap.min.js $(PKG_PATH)/files/bootstrap.min.js" >> $(DH_LINKS_FILE)
 #	echo "$(PKG_PATH)/files/js/bootstrap.min.js /usr/share/javascript/twitter-bootstrap/bootstrap.min.js" >> $(DH_LINKS_FILE)
 #	echo "$(PKG_PATH)/files/css/bootstrap.css /usr/share/javascript/twitter-bootstrap/css/bootstrap.css" >> $(DH_LINKS_FILE)
 #	echo "$(PKG_PATH)/files/fonts/* /usr/share/javascript/twitter-bootstrap/fonts" >> $(DH_LINKS_FILE)
