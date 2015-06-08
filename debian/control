@@ -1,0 +1,30 @@
+Source: libjs-twitter-bootstrap
+Build-Depends: debhelper (>= 7.0.50~), yui-compressor
+Standards-Version: 3.8.4
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Uploaders: Vitex <vitex@hippy.cz>
+Priority: optional
+Homepage: http://twitter.github.io/bootstrap/index.html
+
+Package: libjs-twitter-bootstrap
+Architecture: all
+Depends: ${misc:Depends},libjs-jquery (>= 1.4)
+Recommends: libjs-fuelux
+Section: web
+Description: Front-end framework for faster and easier web development.
+ Twitter Bootstrap is a free collection of tools for creating websites 
+ and web applications.  It contains HTML and CSS-based design templates 
+ for typography, forms, buttons, charts, navigation and other interface 
+ components, as well as optional JavaScript extensions.
+
+Package: libjs-twitter-bootstrap-docs
+Section: doc
+Architecture: all
+Depends: ${misc:Depends}
+Enhances: libjs-twitter-bootstrap
+Provides: twitter-bootstrap-docs
+Description: HTML, CSS and JS toolkit from Twitter (documentation)
+ Bootstrap is a toolkit from Twitter designed to kickstart development of
+ webapps and sites with modern browsers in mind.
+ .
+ This package contains the documentation.

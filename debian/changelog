@@ -1,0 +1,7 @@
+libjs-twitter-bootstrap (3.3.4-21) UNRELEASED; urgency=low
+
+  [Vítězslav Vitex Dvořák ]
+  * Update to 3.3.4
+  * Now compatible with debian jessie libjs-twitter-bootstrap-2.0.2+dfsg-4
+
+ -- vitex <vitex@linuxadmin.austro-bohemia.local>  Mon, 08 Jun 2015 09:44:28 +0200
