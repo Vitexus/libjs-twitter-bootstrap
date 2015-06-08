@@ -1,2 +1,3 @@
-/usr/share/twitter-bootstrap/files/js/bootstrap.js /usr/share/twitter-bootstrap/files/bootstrap.js
-/usr/share/twitter-bootstrap/files/js/bootstrap.min.js /usr/share/twitter-bootstrap/files/bootstrap.min.js
+/usr/share/twitter-bootstrap/			 /usr/share/javascript/twitter-bootstrap/
+/usr/share/twitter-bootstrap/js/bootstrap.js     /usr/share/javascript/bootstrap.js
+/usr/share/twitter-bootstrap/js/bootstrap.min.js /usr/share/javascript/bootstrap.min.js

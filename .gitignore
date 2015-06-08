@@ -1,1 +1,6 @@
 /nbproject/private/
+build
+debian/build
+bootstrap/
+debian/libjs-twitter-bootstrap-docs/
+debian/libjs-twitter-bootstrap/
