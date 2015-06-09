@@ -34,8 +34,10 @@ override_dh_auto_install:
 	dh_auto_install
 	mkdir -p debian/libjs-twitter-bootstrap-docs/usr/share/doc/libjs-twitter-bootstrap-docs
 	cp $(BUILD_DIR)/README.md debian/libjs-twitter-bootstrap-docs/usr/share/doc/libjs-twitter-bootstrap-docs/README.css
+#	for html in debian/libjs-twitter-bootstrap-docs/usr/share/doc/libjs-twitter-bootstrap-docs/html/examples/*/*.html; do
+#	done
 
 override_dh_auto_clean:
-	rm -f $(DH_LINKS_FILE)
+#	rm -f $(DH_LINKS_FILE)
 	rm -rf $(BUILD_DIR)
 	dh_auto_clean
