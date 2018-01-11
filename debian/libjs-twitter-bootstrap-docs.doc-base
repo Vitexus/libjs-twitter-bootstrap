@@ -1,9 +1,0 @@
-Document: libjs-twitter-bootstrap
-Title: twitter-bootstrap CSS - Documentation
-Author: Made at Twitter
-Abstract: Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.
-Section: Programming
-
-Format: HTML
-Index: /usr/share/doc/libjs-twitter-bootstrap-docs/html/index.html
-Files: /usr/share/doc/libjs-twitter-bootstrap-docs/html/*

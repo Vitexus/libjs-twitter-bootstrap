@@ -1,5 +1,0 @@
-build/js/*.js                 /usr/share/twitter-bootstrap/js
-build/css/*.css               /usr/share/twitter-bootstrap/css
-build/fonts/*                 /usr/share/twitter-bootstrap/fonts
-debian/local/*     	      /etc/apache2/conf-available/
-
